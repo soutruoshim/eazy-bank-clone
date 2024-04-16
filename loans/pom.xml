@@ -35,10 +35,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-bus-amqp</artifactId>
-		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -91,7 +87,7 @@
 				<version>3.4.1</version>
 				<configuration>
 					<to>
-						<image>srhdp/${project.artifactId}:s6</image>
+						<image>srhdp/${project.artifactId}:s7</image>
 					</to>
 				</configuration>
 			</plugin>
