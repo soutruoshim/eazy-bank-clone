@@ -48,6 +48,11 @@
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
+			<groupId>com.mysql</groupId>
+			<artifactId>mysql-connector-j</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
@@ -86,7 +91,7 @@
 				<version>3.4.1</version>
 				<configuration>
 					<to>
-						<image>srhdp/${project.artifactId}:s6</image>
+						<image>srhdp/${project.artifactId}:s7</image>
 					</to>
 				</configuration>
 			</plugin>
